@@ -29,7 +29,8 @@
     "yup": "^0.32.9"
   },
   "scripts": {
-    "dev:start:client": "BROWSER=none PORT=5002 react-scripts start",
+    "dev:start:client": "BROWSER=none PORT=8082 react-scripts start",
+    "start": "http-server ./build -p 8082",
     "build": "react-scripts build"
   },
   "eslintConfig": {
@@ -49,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
   }
 }

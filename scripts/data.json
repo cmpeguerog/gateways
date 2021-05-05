@@ -1,0 +1,122 @@
+[
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620187985226,
+    "vendor": "Xiaomi"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620187996705,
+    "vendor": "Sony"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": true,
+    "uid": 1620188000056,
+    "vendor": "Apple"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620188004812,
+    "vendor": "Qualcomm"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620188013009,
+    "vendor": "Samsung"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": true,
+    "uid": 1620188016820,
+    "vendor": "Qualcomm"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620188019526,
+    "vendor": "Xiaomi"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620188031637,
+    "vendor": "Oppo"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": true,
+    "uid": 1620188036773,
+    "vendor": "Sony"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620188044981,
+    "vendor": "Samsung"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": true,
+    "uid": 1620188050511,
+    "vendor": "Oppo"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": true,
+    "uid": 1620188056868,
+    "vendor": "Sony"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620188063732,
+    "vendor": "Apple"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": true,
+    "uid": 1620188067868,
+    "vendor": "Samsung"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620188075933,
+    "vendor": "Qualcomm"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620188077788,
+    "vendor": "Oppo"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": true,
+    "uid": 1620188078975,
+    "vendor": "Qualcomm"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620188080143,
+    "vendor": "Xiaomi"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620188081229,
+    "vendor": "Oppo"
+  },
+  {
+    "date_created": "2021-05-05T04:10:59.772Z",
+    "status": false,
+    "uid": 1620188082382,
+    "vendor": "Qualcomm"
+  }
+]

@@ -7,7 +7,7 @@ import Gateway from "./Gateway";
 
 const Gateways = function() {
 
-  const {gateways} = useGateways();
+  const {gateways = []} = useGateways();
 
   return (
     <Scrollbar scale={"match parent"}>

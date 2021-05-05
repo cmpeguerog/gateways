@@ -2,7 +2,7 @@ import Axios from "axios-observable";
 
 export const url = `${window.location.protocol}//${`${
   window.location.hostname
-}:3000/api/v1/`.replace("//", "/")}`;
+}:8081/api/v1/`.replace("//", "/")}`;
 
 const axios = Axios.create({
   baseURL: url,

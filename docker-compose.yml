@@ -1,2 +1,39 @@
 version: '3.4'
 
+services:
+  api:
+    container_name: api-container
+    restart: always
+    build: ./server
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mongo
+  client:
+    container_name: client-container
+    restart: always
+    build: ./client
+    ports:
+      - "8082:8082"
+    depends_on:
+      - api
+  mongo:
+    container_name: mongo-container
+    image: mongo:latest
+    expose:
+      - "27017"
+    ports:
+      - "27017:27017"
+    volumes:
+      - data:/data/db
+  import:
+    container_name: mongo-import
+    image: mongo:latest
+    depends_on:
+      - mongo
+    volumes:
+      - ./scripts:/tmp/scripts
+    command: >
+      bash -c " chmod +x /tmp/scripts/insert.sh && /tmp/scripts/insert.sh"
+volumes:
+  data:

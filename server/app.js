@@ -2,7 +2,6 @@ const express = require('express');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const parser = require("body-parser");
-const index = require('./routes/index');
 const gateway = require('./routes/gateway');
 const peripheral = require('./routes/peripheral');
 const mongoose = require("mongoose");
@@ -18,7 +17,6 @@ app.use(parser.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.use(root, index);
 app.use(`${root}/gateway`, gateway);
 app.use(`${root}/peripheral`, peripheral);
 
@@ -32,6 +30,7 @@ const connection = mongoose.connection
 
 connection.once("open", _ => {
   console.log("Database connected");
+
 });
 
 connection.on("error", error => {

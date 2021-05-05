@@ -1,11 +1,19 @@
 FROM node:12.18-alpine
 
+RUN npm install -g http-server
+
 ENV NODE_ENV=production
-WORKDIR /usr/src/app
 
-COPY ./client/package.json ./client
+WORKDIR /client
 
-RUN npm install --production --silent && mv node_modules ../
-COPY ./client ./client
+COPY package*.json /client/
 
-CMD ["bash", "/usr/src/app/client/start.sh"]
+RUN npm install --production --silent
+
+COPY . /client/
+
+RUN npm run build
+
+EXPOSE 8082
+
+CMD ["npm", "start"]
