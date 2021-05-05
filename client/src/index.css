@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+}
+
+li::before {
+  content: "";
+  margin-left: -6px;
+}

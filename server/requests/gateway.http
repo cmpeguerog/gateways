@@ -1,0 +1,18 @@
+GET http://localhost:3000/gateway/6090ba15cd6f1439d0c4b0df
+Accept: application/json
+
+###
+POST http://localhost:3000/gateway
+Content-Type: application/json
+
+{
+  "name": "Default",
+  "address": "192.168.1.",
+  "peripherals": []
+}
+
+###
+GET http://localhost:3000/gateway
+Accept: application/json
+
+###
